@@ -1,0 +1,13 @@
+.footer{
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+.text{
+    padding: 1rem;
+}
+.text h6{
+    color: black;
+}
+.text .fa{
+    color: red;
+}

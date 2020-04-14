@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Comic+Neue&display=swap');
+
+body{
+    background-image: url(./img/y-so-serious-white.png);
+    font-family: 'Comfortaa', cursive;
+}
+.container img{
+    height: 5rem;
+    width: 5rem;
+}
+.container h1{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 3rem ;
+    text-transform: uppercase;
+}
+
