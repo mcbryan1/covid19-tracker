@@ -41,8 +41,8 @@ handleCountryChange = async (country) =>{
           </div>
           <div className="col-md-1"></div>
         </div>
-        <Cards data={data}/>
         <CountryPicker handleCountryChange={this.handleCountryChange}/>
+        <Cards data={data}/>
         <Chart data={data} country={country} />
         <Footer/>
       </div>
