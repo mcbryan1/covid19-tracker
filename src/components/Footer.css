@@ -11,3 +11,10 @@
 .text .fa{
     color: red;
 }
+
+@media (max-width: 770px) {
+    .footer{
+        height: 4rem;
+    }
+    
+}
