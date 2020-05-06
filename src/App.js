@@ -35,10 +35,10 @@ handleCountryChange = async (country) =>{
     return (
       <div className="container">
         <div className="row">
-          <div className="col-md-1 creator">
+          <div className="col-md-2 creator">
             <a href="http://www.thecreatorhome.com/"><img src={creator} className='img-fluid' alt='logo'/></a>
           </div>
-          <div className="col-md-10 text-center con">
+          <div className="col-md-9 text-center con">
           <h1>C<span><img src={logo} alt="covid19" /></span>vid19 Tracker</h1>
           </div>
           <div className="col-md-1"></div>
