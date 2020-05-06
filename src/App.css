@@ -4,26 +4,36 @@ body{
     background-image: url(./img/y-so-serious-white.png);
     font-family: 'Comfortaa', cursive;
 }
-.container img{
+.con img{
     height: 5rem;
     width: 5rem;
 }
-.container h1{
+.con h1{
     font-size: 5rem;
     font-weight: bold;
     margin-top: 3rem ;
     text-transform: uppercase;
 }
+.creator img{
+    height: 6rem;
+    width: 8rem;
+    margin-top: 3rem;
+}
 
 @media (max-width: 770px) {
-    .container img{
+    .con img{
         width: 10%;
         height: 12%;
     }
-    .container h1{
+    .con h1{
     font-size: 2rem;
     font-weight: bold;
     margin-top: 3rem ;
     text-transform: uppercase;
+    }
+    .creator img{
+        margin-left: 12rem;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
