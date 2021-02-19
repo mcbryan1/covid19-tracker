@@ -20,6 +20,25 @@ const Cards = ({ data: { confirmed, deaths, recovered, lastUpdate } }) => {
         <div className="row">
           <div className="col-md-12">
             <div className="row">
+            <div className="col-md-3 sm-4">
+                <div className="card text-center fourheight">
+                  <div className="data"></div>
+                  <h3 className="text header">Active</h3>
+                  <h3>
+                    <CountUp
+                      start={0}
+                      end={confirmed.value - (deaths.value + recovered.value)}
+                      duration={5}
+                      separator=","
+                    />
+                  </h3>
+                  <h5 className="text">
+                    {new Date(lastUpdate).toDateString()}
+                  </h5>
+                  <h3>Active Cases</h3>
+                </div>
+              </div>
+              
               <div className="col-md-3 sm-4">
                 <div className="card text-center oneheight">
                   <div className="data"></div>
@@ -77,24 +96,7 @@ const Cards = ({ data: { confirmed, deaths, recovered, lastUpdate } }) => {
                 </div>
               </div>
 
-              <div className="col-md-3 sm-4">
-                <div className="card text-center fourheight">
-                  <div className="data"></div>
-                  <h3 className="text header">Active</h3>
-                  <h3>
-                    <CountUp
-                      start={0}
-                      end={confirmed.value - (deaths.value + recovered.value)}
-                      duration={5}
-                      separator=","
-                    />
-                  </h3>
-                  <h5 className="text">
-                    {new Date(lastUpdate).toDateString()}
-                  </h5>
-                  <h3>Active Cases</h3>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
