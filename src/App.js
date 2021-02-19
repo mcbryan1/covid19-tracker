@@ -33,7 +33,7 @@ handleCountryChange = async (country) =>{
   render () {
     const {data, country} = this.state
     return (
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-md-2 creator">
             <a href="http://www.thecreatorhome.com/"><img src={creator} className='img-fluid' alt='logo'/></a>
